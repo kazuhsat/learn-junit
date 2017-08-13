@@ -2,13 +2,38 @@ package junit.tutorial;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-import org.junit.Test;
+import org.junit.*;
 
 public class CalculatorTest {
     /*
     @Test
     public void test() {
-        fail("まだ実装されていません");
+        fail("fail");
+    }
+
+    @Before
+    public void setUp() {
+        System.out.println("Before");
+    }
+
+    @After
+    public void tearDown() {
+        System.out.println("After");
+    }
+
+    @BeforeClass
+    public static void setUpClass() {
+        System.out.println("BeforeClass");
+    }
+
+    @Ignore
+    public void multiplyで乗算結果が取得できる_無視されるテスト() {
+        Calculator sut = new Calculator();
+
+        int actual = sut.multiply(6, 3);
+        int expected = 20;
+
+        assertThat(actual, is(expected));
     }
     */
 
